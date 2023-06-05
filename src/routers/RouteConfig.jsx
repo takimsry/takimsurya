@@ -1,8 +1,14 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import DashboardPage from '../pages/DashboardPage/DashboardPage'
 
 const RouteConfig = () => {
   return (
-    <div>RouteConfig</div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<DashboardPage />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
