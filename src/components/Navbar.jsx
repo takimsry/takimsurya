@@ -1,5 +1,7 @@
 import React from 'react';
 import heroImage from '../assets/img/takim-surya.png';
+import hamMenu from '../assets/img/ham-menu.svg'
+import hamMenuClose from '../assets/img/ham-menu-close.svg'
 
 const Navbar = () => {
   return (
@@ -34,12 +36,12 @@ const Navbar = () => {
           </ul>
           <div class="header__main-ham-menu-cont">
             <img
-              src="./public/assets/svg/ham-menu.svg"
+              src={hamMenu}
               alt="hamburger menu"
               class="header__main-ham-menu"
             />
             <img
-              src="./public/assets/svg/ham-menu-close.svg"
+              src={hamMenuClose}
               alt="hamburger menu close"
               class="header__main-ham-menu-close d-none"
             />
