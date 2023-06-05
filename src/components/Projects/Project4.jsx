@@ -13,7 +13,7 @@ const Project4 = () => {
             </p>
           </div>
           <div class="project-cs-hero__cta">
-            <a href="https://e-has.id/" class="btn btn--bg" target="_blank">Live Link</a>
+            <a href="https://e-has.id/" class="btn btn--bg" target="_blank" rel="noreferrer">Live Link</a>
           </div>
         </div>
       </section>

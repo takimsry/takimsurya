@@ -23,7 +23,7 @@ const Projects = () => {
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
-              />FGFGF
+              />
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">E-HAS</h3>

@@ -13,7 +13,7 @@ const Project3 = () => {
             </p>
           </div>
           <div class="project-cs-hero__cta">
-            <a href="https://www.figma.com/proto/z4lF9g0a1JLNV63mrYWLRn/PERSANI?type=design&node-id=47-6&scaling=scale-down&page-id=47%3A5&starting-point-node-id=47%3A6" class="btn btn--bg" target="_blank">Live Link</a>
+            <a href="https://www.figma.com/proto/z4lF9g0a1JLNV63mrYWLRn/PERSANI?type=design&node-id=47-6&scaling=scale-down&page-id=47%3A5&starting-point-node-id=47%3A6" class="btn btn--bg" target="_blank" rel="noreferrer">Live Link</a>
           </div>
         </div>
       </section>
