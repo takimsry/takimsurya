@@ -1,4 +1,5 @@
 import React from 'react'
+import myCV from '../../assets/cv/M. Mustakim Surya_CV.pdf'
 
 const About = () => {
   return (
@@ -27,8 +28,8 @@ const About = () => {
                 Let's collaborate and bring your <strong>ideas</strong> to life!
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
+            <a href={myCV} class="btn btn--med btn--theme dynamicBgClr" download
+              >My CV</a
             >
           </div>
           <div class="about__content-skills">
