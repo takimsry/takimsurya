@@ -4,6 +4,7 @@ import linkedinIcon from '../assets/img/linkedin-ico.png';
 import githubIcon from '../assets/img/github-ico.png';
 
 const Footer = () => {
+  const crYear = new Date().getFullYear();
   return (
     <footer class="main-footer">
       <div class="main-container">
@@ -45,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright 2023.
+          &copy; Copyright {crYear}.
         </div>
       </div>
     </footer>
