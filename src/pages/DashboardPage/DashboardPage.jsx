@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Dashboard/Navbar'
 import Hero from '../../components/Dashboard/Hero'
 import About from '../../components/Dashboard/About'
 import Projects from '../../components/Dashboard/Projects'

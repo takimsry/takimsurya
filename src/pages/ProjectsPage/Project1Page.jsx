@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
 import Project1 from '../../components/Projects/Project1'
 import Footer from '../../components/Footer'
+import NavbarProjects from '../../components/Projects/NavbarProjects'
 
 const Project1Page = () => {
   return (
     <>
-      <Navbar />
+      <NavbarProjects />
       <Project1 />
       <Footer />
     </>

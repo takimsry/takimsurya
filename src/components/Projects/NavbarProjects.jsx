@@ -1,10 +1,11 @@
 import React from 'react';
-import heroImage from '../assets/img/takim-surya.png';
-import hamMenu from '../assets/img/ham-menu.svg'
-import hamMenuClose from '../assets/img/ham-menu-close.svg'
+import heroImage from '../../assets/img/takim-surya.png';
+import hamMenu from '../../assets/img/ham-menu.svg'
+import hamMenuClose from '../../assets/img/ham-menu-close.svg'
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const NavbarProjects = () => {
+  
   return (
     <header class="header">
       <div class="header__content">
@@ -22,17 +23,6 @@ const Navbar = () => {
           <ul class="header__links">
             <li class="header__link-wrapper">
               <Link to="/"  class="header__link"> Home </Link>
-            </li>
-            <li class="header__link-wrapper">
-              <Link to="/#about" class="header__link">About </Link>
-            </li>
-            <li class="header__link-wrapper">
-              <Link to="/#projects"  class="header__link">
-                Projects
-              </Link>
-            </li>
-            <li class="header__link-wrapper">
-              <Link to="/#contact"  class="header__link"> Contact </Link>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -55,18 +45,6 @@ const Navbar = () => {
             <li class="header__sm-menu-link">
               <Link to="/" > Home </Link>
             </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
           </ul>
         </div>
       </div>
@@ -74,4 +52,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarProjects

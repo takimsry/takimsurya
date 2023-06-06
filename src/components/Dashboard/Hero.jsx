@@ -5,7 +5,7 @@ import githubIcon from '../../assets/img/github-ico.png';
 
 const Hero = () => {
   return (
-    <section class="home-hero">
+    <section class="home-hero" id="hero">
       <div class="home-hero__content">
         <h1 class="heading-primary">I am <span>M. Mustakim Surya</span></h1>
         <h2 class="heading-secondary">Full Stack Developer</h2>
