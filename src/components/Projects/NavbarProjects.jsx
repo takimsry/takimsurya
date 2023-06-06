@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import heroImage from '../../assets/img/takim-surya.png';
 import hamMenu from '../../assets/img/ham-menu.svg'
 import hamMenuClose from '../../assets/img/ham-menu-close.svg'
 import { Link } from 'react-router-dom';
 
 const NavbarProjects = () => {
+  const [isSmallMenuOpen, setIsSmallMenuOpen] = useState(false);
+
+  const toggleSmallMenu = () => {
+    setIsSmallMenuOpen(!isSmallMenuOpen);
+  };
   
   return (
     <header class="header">
@@ -25,21 +30,16 @@ const NavbarProjects = () => {
               <Link to="/"  class="header__link"> Home </Link>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont">
+          <div class="header__main-ham-menu-cont" onClick={toggleSmallMenu}>
             <img
-              src={hamMenu}
+              src={isSmallMenuOpen ? hamMenuClose : hamMenu}
               alt="hamburger menu"
               class="header__main-ham-menu"
-            />
-            <img
-              src={hamMenuClose}
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
             />
           </div>
         </div>
       </div>
-      <div class="header__sm-menu">
+      <div class={`header__sm-menu ${isSmallMenuOpen ? 'header__sm-menu--active' : ''}`}>
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
