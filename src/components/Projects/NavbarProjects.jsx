@@ -9,7 +9,7 @@ const NavbarProjects = () => {
   return (
     <header class="header">
       <div class="header__content">
-        <div class="header__logo-container">
+        <Link to="/" class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
               src={heroImage}
@@ -18,7 +18,7 @@ const NavbarProjects = () => {
             />
           </div>
           <span class="header__logo-sub">M. Mustakim Surya</span>
-        </div>
+        </Link>
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
