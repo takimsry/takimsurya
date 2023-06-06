@@ -2,6 +2,7 @@ import React from 'react';
 import heroImage from '../assets/img/takim-surya.png';
 import hamMenu from '../assets/img/ham-menu.svg'
 import hamMenuClose from '../assets/img/ham-menu-close.svg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -20,18 +21,18 @@ const Navbar = () => {
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <Link to="/"  class="header__link"> Home </Link>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <Link to="/#about" class="header__link">About </Link>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <Link to="/#projects"  class="header__link">
                 Projects
-              </a>
+              </Link>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <Link to="/#contact"  class="header__link"> Contact </Link>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -52,7 +53,7 @@ const Navbar = () => {
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <Link to="/" > Home </Link>
             </li>
 
             <li class="header__sm-menu-link">

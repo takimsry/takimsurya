@@ -2,7 +2,6 @@ import React from 'react';
 import emailIcon from '../assets/img/envelope-fill.svg';
 import linkedinIcon from '../assets/img/linkedin-ico.png';
 import githubIcon from '../assets/img/github-ico.png';
-import instaIcon from '../assets/img/insta-ico.png';
 
 const Footer = () => {
   return (
@@ -32,13 +31,6 @@ const Footer = () => {
                 <img
                   class="main-footer__icon"
                   src={githubIcon}
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/takimsry/">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src={instaIcon}
                   alt="icon"
                 />
               </a>

@@ -3,6 +3,7 @@ import projectImg1 from '../../assets/portfolio/project1.png';
 import projectImg2 from '../../assets/portfolio/project2.png';
 import projectImg3 from '../../assets/portfolio/project3.png';
 import projectImg4 from '../../assets/portfolio/project4.png';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -30,10 +31,10 @@ const Projects = () => {
               <p class="projects__row-content-desc">
                 E-HAS (Electronic Halal Assurance System) is a system that aimed to provide small and medium enterprises with a streamlined process to obtain halal certification for their products from MUI (Majelis Ulama Indonesia, the Indonesian Council of Ulama).
               </p>
-              <a
-                href="./project-1.html"
+              <Link
+                to="/projects/e-has" 
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >Case Study</Link
               >
             </div>
           </div>
@@ -51,10 +52,10 @@ const Projects = () => {
               <p class="projects__row-content-desc">
                 UI/UX project for PERSANI (Indonesian Gymnastics Association) - Central Java, a government organization focused on gymnastics. The project involved creating a high-fidelity prototype for an athlete and data management platform.
               </p>
-              <a
-                href="./project-2.html"
+              <Link
+                to="/projects/persani" 
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >Case Study</Link
               >
             </div>
           </div>
@@ -72,10 +73,10 @@ const Projects = () => {
               <p class="projects__row-content-desc">
                 OurGym is a Gym Membership system which of course is engaged in sports. This app provide gym class, mentoring, booking system, and payment gateway via third party.
               </p>
-              <a
-                href="./project-3.html"
+              <Link
+                to="/projects/ourgym" 
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >Case Study</Link
               >
             </div>
           </div>
@@ -93,10 +94,10 @@ const Projects = () => {
               <p class="projects__row-content-desc">
                 angkutaja is a website created to address the house moving needs, especially the transfer of boarding houses for college students in Semarang. It offers a streamlined solution for booking and managing house relocations.
               </p>
-              <a
-                href="./project-4.html"
+              <Link
+                to="/projects/angkutaja" 
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >Case Study</Link
               >
             </div>
           </div>

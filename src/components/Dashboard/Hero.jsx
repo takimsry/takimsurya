@@ -2,7 +2,6 @@ import React from 'react';
 import emailIcon from '../../assets/img/envelope-fill.svg';
 import linkedinIcon from '../../assets/img/linkedin-ico.png';
 import githubIcon from '../../assets/img/github-ico.png';
-import instaIcon from '../../assets/img/insta-ico.png';
 
 const Hero = () => {
   return (
@@ -21,7 +20,8 @@ const Hero = () => {
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="mailto:muhammadmustakimsurya@gmail.com" class="home-hero__social-icon-link">
+          <a href="mailto:muhammadmustakimsurya@gmail.com" class="home-hero__social-icon-link"
+          target='_blank' rel="noreferrer">
             <img
               src={emailIcon}
               alt="icon"
@@ -30,7 +30,9 @@ const Hero = () => {
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/m-mustakim-surya/" class="home-hero__social-icon-link">
+          <a href="https://www.linkedin.com/in/m-mustakim-surya/" class="home-hero__social-icon-link"
+          target='_blank' rel="noreferrer"
+          >
             <img
               src={linkedinIcon}
               alt="icon"
@@ -39,21 +41,11 @@ const Hero = () => {
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://github.com/m-mustakim-surya" class="home-hero__social-icon-link">
-            <img
-              src={githubIcon}
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://www.instagram.com/takimsry/"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          <a href="https://github.com/m-mustakim-surya" class="home-hero__social-icon-link"
+          target='_blank' rel="noreferrer"
           >
             <img
-              src={instaIcon}
+              src={githubIcon}
               alt="icon"
               class="home-hero__social-icon"
             />
