@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
+        <h2 class="heading heading-sec heading-sec__mb-bg" data-aos="fade-up">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
             Here you'll explore a collection of both personal and client projects that I have crafted, each accompanied by its own dedicated case study.
@@ -18,7 +18,7 @@ const Projects = () => {
 
         <div class="projects__content">
           <div class="projects__row">
-            <div class="projects__row-img-cont">
+            <div class="projects__row-img-cont" data-aos="fade-right">
               <img
                 src={projectImg4}
                 alt="Software Screenshot"
@@ -26,7 +26,7 @@ const Projects = () => {
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
+            <div class="projects__row-content" data-aos="fade-right" data-aos-delay="150">
               <h3 class="projects__row-content-title">E-HAS</h3>
               <p class="projects__row-content-desc">
                 E-HAS (Electronic Halal Assurance System) is a system that aimed to provide small and medium enterprises with a streamlined process to obtain halal certification for their products from MUI (Majelis Ulama Indonesia, the Indonesian Council of Ulama).
@@ -39,7 +39,7 @@ const Projects = () => {
             </div>
           </div>
           <div class="projects__row">
-            <div class="projects__row-img-cont">
+            <div class="projects__row-img-cont" data-aos="fade-right">
               <img
                 src={projectImg3}
                 alt="Software Screenshot"
@@ -47,7 +47,7 @@ const Projects = () => {
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
+            <div class="projects__row-content" data-aos="fade-right" data-aos-delay="150">
               <h3 class="projects__row-content-title">PERSANI - Central Java</h3>
               <p class="projects__row-content-desc">
                 UI/UX project for PERSANI (Indonesian Gymnastics Association) - Central Java, a government organization focused on gymnastics. The project involved creating a high-fidelity prototype for an athlete and data management platform.
@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
           </div>
           <div class="projects__row">
-            <div class="projects__row-img-cont">
+            <div class="projects__row-img-cont" data-aos="fade-right">
               <img
                 src={projectImg2}
                 alt="Software Screenshot"
@@ -68,7 +68,7 @@ const Projects = () => {
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
+            <div class="projects__row-content" data-aos="fade-right" data-aos-delay="150">
               <h3 class="projects__row-content-title">OurGym</h3>
               <p class="projects__row-content-desc">
                 OurGym is a Gym Membership system which of course is engaged in sports. This app provide gym class, mentoring, booking system, and payment gateway via third party.
@@ -81,7 +81,7 @@ const Projects = () => {
             </div>
           </div>
           <div class="projects__row">
-            <div class="projects__row-img-cont">
+            <div class="projects__row-img-cont" data-aos="fade-right">
               <img
                 src={projectImg1}
                 alt="Software Screenshot"
@@ -89,7 +89,7 @@ const Projects = () => {
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
+            <div class="projects__row-content" data-aos="fade-right" data-aos-delay="150">
               <h3 class="projects__row-content-title">angkutaja</h3>
               <p class="projects__row-content-desc">
                 angkutaja is a website created to address the house moving needs, especially the transfer of boarding houses for college students in Semarang. It offers a streamlined solution for booking and managing house relocations.
