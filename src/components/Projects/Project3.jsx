@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import projectImg3 from '../../assets/portfolio/project3.png';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project3 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section class="project-cs-hero">
@@ -20,14 +26,14 @@ const Project3 = () => {
       <section class="project-details">
         <div class="main-container">
           <div class="project-details__content">
-            <div class="project-details__showcase-img-cont">
+            <div class="project-details__showcase-img-cont" data-aos="fade-up">
               <img
                 src={projectImg3}
                 alt="Project"
                 class="project-details__showcase-img"
               />
             </div>
-            <div class="project-details__content-main">
+            <div class="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
               <div class="project-details__desc">
                 <h3 class="project-details__content-title">Project Overview</h3>
                 <p class="project-details__desc-para">
@@ -37,14 +43,14 @@ const Project3 = () => {
                   Using Figma, I created visually appealing and intuitive user interfaces to enhance the overall user experience. Through efficient project management with Trello, we successfully developed a platform that simplifies athlete and data management for PERSANI - Central Java, empowering the organization to focus on nurturing gymnastics talent and promoting the sport.
                 </p>
               </div>
-              <div class="project-details__tools-used">
+              <div class="project-details__tools-used" data-aos="fade-up">
                 <h3 class="project-details__content-title">Tools Used</h3>
                 <div class="skills">
                   <div class="skills__skill">Figma</div>
                   <div class="skills__skill">Trello</div>
                 </div>
               </div>
-              <div class="project-details__links">
+              <div class="project-details__links" data-aos="fade-up">
                 <h3 class="project-details__content-title">See Live</h3>
                 <a
                   href="https://www.figma.com/proto/z4lF9g0a1JLNV63mrYWLRn/PERSANI?type=design&node-id=47-6&scaling=scale-down&page-id=47%3A5&starting-point-node-id=47%3A6"

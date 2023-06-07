@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import projectImg2 from '../../assets/portfolio/project2.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project2 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section class="project-cs-hero">
@@ -20,14 +26,14 @@ const Project2 = () => {
       <section class="project-details">
         <div class="main-container">
           <div class="project-details__content">
-            <div class="project-details__showcase-img-cont">
+            <div class="project-details__showcase-img-cont" data-aos="fade-up">
               <img
                 src={projectImg2}
                 alt="Project"
                 class="project-details__showcase-img"
               />
             </div>
-            <div class="project-details__content-main">
+            <div class="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
               <div class="project-details__desc">
                 <h3 class="project-details__content-title">Project Overview</h3>
                 <p class="project-details__desc-para">
@@ -37,7 +43,7 @@ const Project2 = () => {
                   Our collaborative efforts resulted in a user-friendly application that simplifies gym membership management. The OurGym App showcases my expertise in Front-End Development and highlights my ability to work effectively within a multidisciplinary team to deliver a high-quality product.
                 </p>
               </div>
-              <div class="project-details__tools-used">
+              <div class="project-details__tools-used" data-aos="fade-up">
                 <h3 class="project-details__content-title">Tools Used</h3>
                 <div class="skills">
                   <div class="skills__skill">HTML</div>
@@ -51,7 +57,7 @@ const Project2 = () => {
                   <div class="skills__skill">Trello</div>
                 </div>
               </div>
-              <div class="project-details__links">
+              <div class="project-details__links" data-aos="fade-up">
                 <h3 class="project-details__content-title">See Live</h3>
                 <a
                   href="https://ourgym-capstone.netlify.app/"

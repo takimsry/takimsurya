@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import projectImg4 from '../../assets/portfolio/project4.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project4 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section class="project-cs-hero">
@@ -20,14 +26,14 @@ const Project4 = () => {
       <section class="project-details">
         <div class="main-container">
           <div class="project-details__content">
-            <div class="project-details__showcase-img-cont">
+            <div class="project-details__showcase-img-cont" data-aos="fade-up">
               <img
                 src={projectImg4}
                 alt="Project"
                 class="project-details__showcase-img"
               />
             </div>
-            <div class="project-details__content-main">
+            <div class="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
               <div class="project-details__desc">
                 <h3 class="project-details__content-title">Project Overview</h3>
                 <p class="project-details__desc-para">
@@ -37,7 +43,7 @@ const Project4 = () => {
                   Utilizing MySQL for efficient database design, Figma for UI/UX design, and CodeIgniter PHP for web development, we successfully created a user-friendly platform. E-HAS simplifies the complex certification procedures, enabling SMEs to accurately submit product information and efficiently manage their certification requests. Through this project, I was able to showcase my proficiency in database design, UI/UX design, and web development, demonstrating my capability to deliver impactful solutions that cater to the needs of businesses and promote halal compliance.
                 </p>
               </div>
-              <div class="project-details__tools-used">
+              <div class="project-details__tools-used" data-aos="fade-up">
                 <h3 class="project-details__content-title">Tools Used</h3>
                 <div class="skills">
                   <div class="skills__skill">HTML</div>
@@ -54,7 +60,7 @@ const Project4 = () => {
                   <div class="skills__skill">Trello</div>
                 </div>
               </div>
-              <div class="project-details__links">
+              <div class="project-details__links" data-aos="fade-up">
                 <h3 class="project-details__content-title">See Live</h3>
                 <a
                   href="https://e-has.id/"

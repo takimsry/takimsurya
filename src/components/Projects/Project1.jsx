@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import projectImg1 from '../../assets/portfolio/project1.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project1 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section class="project-cs-hero">
@@ -20,14 +26,14 @@ const Project1 = () => {
       <section class="project-details">
         <div class="main-container">
           <div class="project-details__content">
-            <div class="project-details__showcase-img-cont">
+            <div class="project-details__showcase-img-cont" data-aos="fade-up">
               <img
                 src={projectImg1}
                 alt="Project1"
                 class="project-details__showcase-img"
               />
             </div>
-            <div class="project-details__content-main">
+            <div class="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
               <div class="project-details__desc">
                 <h3 class="project-details__content-title">Project Overview</h3>
                 <p class="project-details__desc-para">
@@ -37,7 +43,7 @@ const Project1 = () => {
                   "Angkutaja" showcases my skills in UI/UX design, front-end development, database design, and API integration. This project demonstrates my ability to create a streamlined platform for house moving services, offering convenience and efficiency to users.
                 </p>
               </div>
-              <div class="project-details__tools-used">
+              <div class="project-details__tools-used" data-aos="fade-up">
                 <h3 class="project-details__content-title">Tools Used</h3>
                 <div class="skills">
                   <div class="skills__skill">HTML</div>
@@ -53,7 +59,7 @@ const Project1 = () => {
                   <div class="skills__skill">Trello</div>
                 </div>
               </div>
-              <div class="project-details__links">
+              <div class="project-details__links" data-aos="fade-up">
                 <h3 class="project-details__content-title">See Live</h3>
                 <a
                   href="https://angkutaja.vercel.app/"
