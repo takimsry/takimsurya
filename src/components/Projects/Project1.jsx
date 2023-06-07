@@ -1,13 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import projectImg1 from '../../assets/portfolio/project1.png'
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Project1 = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <>
       <section class="project-cs-hero">

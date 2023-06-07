@@ -1,13 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import myCV from '../../assets/cv/M. Mustakim Surya_CV.pdf'
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const About = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <section id="about" class="about sec-pad">
       <div class="main-container">

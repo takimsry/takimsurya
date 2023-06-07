@@ -1,12 +1,6 @@
-import React, { useEffect } from 'react';
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from 'react';
 
 const Contacts = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
