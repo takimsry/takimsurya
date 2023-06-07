@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contacts = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
+        <h2 class="heading heading-sec heading-sec__mb-med" data-aos="fade-up">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
             Please don't hesitate to reach out to me by filling out the form below. I will promptly respond to your message.
           </span>
         </h2>
-        <div class="contact__form-container">
+        <div class="contact__form-container" data-aos="fade-up" data-aos-delay="150">
           <form action="mailto:muhammadmustakimsurya@gmail.com" class="contact__form" method="POST" enctype="multipart/form-data" name="EmailForm">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>

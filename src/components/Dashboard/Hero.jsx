@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailIcon from '../../assets/img/envelope-fill.svg';
 import linkedinIcon from '../../assets/img/linkedin-ico.png';
 import githubIcon from '../../assets/img/github-ico.png';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section class="home-hero" id="hero">
       <div class="home-hero__content">

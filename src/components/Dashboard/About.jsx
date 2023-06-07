@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import myCV from '../../assets/cv/M. Mustakim Surya_CV.pdf'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section id="about" class="about sec-pad">
       <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
+        <h2 class="heading heading-sec heading-sec__mb-med" data-aos="fade-up">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
             Here you'll discover additional details about me, my professional endeavors, and my current expertise primarily focused on programming and technology.
           </span>
         </h2>
         <div class="about__content">
-          <div class="about__content-main">
+          <div class="about__content-main" data-aos="fade-up" data-aos-delay="150">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
@@ -32,7 +38,7 @@ const About = () => {
               >My CV</a
             >
           </div>
-          <div class="about__content-skills">
+          <div class="about__content-skills" data-aos="fade-up" data-aos-delay="150">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
               <div class="skills__skill">HTML</div>
