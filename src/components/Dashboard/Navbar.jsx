@@ -11,60 +11,60 @@ const Navbar = () => {
   };
   
   return (
-    <header class="header">
-      <div class="header__content">
-        <a href="./#hero" class="header__logo-container">
-          <div class="header__logo-img-cont">
+    <header className="header">
+      <div className="header__content">
+        <a href="./#hero" className="header__logo-container">
+          <div className="header__logo-img-cont">
             <img
               src={heroImage}
               alt="M. Mustakim Surya Logo"
-              class="header__logo-img"
+              className="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">M. Mustakim Surya</span>
+          <span className="header__logo-sub">M. Mustakim Surya</span>
         </a>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./#hero"  class="header__link"> Home </a>
+        <div className="header__main">
+          <ul className="header__links">
+            <li className="header__link-wrapper">
+              <a href="./#hero"  className="header__link"> Home </a>
             </li>
-            <li class="header__link-wrapper">
-              <a href="./#about" class="header__link">About </a>
+            <li className="header__link-wrapper">
+              <a href="./#about" className="header__link">About </a>
             </li>
-            <li class="header__link-wrapper">
-              <a href="./#projects"  class="header__link">
+            <li className="header__link-wrapper">
+              <a href="./#projects"  className="header__link">
                 Projects
               </a>
             </li>
-            <li class="header__link-wrapper">
-              <a href="./#contact"  class="header__link"> Contact </a>
+            <li className="header__link-wrapper">
+              <a href="./#contact"  className="header__link"> Contact </a>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont" onClick={toggleSmallMenu}>
+          <div className="header__main-ham-menu-cont" onClick={toggleSmallMenu}>
             <img
               src={isSmallMenuOpen ? hamMenuClose : hamMenu}
               alt="hamburger menu"
-              class="header__main-ham-menu"
+              className="header__main-ham-menu"
             />
           </div>
         </div>
       </div>
-      <div class={`header__sm-menu ${isSmallMenuOpen ? 'header__sm-menu--active' : ''}`}>
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
+      <div className={`header__sm-menu ${isSmallMenuOpen ? 'header__sm-menu--active' : ''}`}>
+        <div className="header__sm-menu-content">
+          <ul className="header__sm-menu-links">
+            <li className="header__sm-menu-link">
               <a href="./#hero" > Home </a>
             </li>
 
-            <li class="header__sm-menu-link">
+            <li className="header__sm-menu-link">
               <a href="./#about"> About </a>
             </li>
 
-            <li class="header__sm-menu-link">
+            <li className="header__sm-menu-link">
               <a href="./#projects"> Projects </a>
             </li>
 
-            <li class="header__sm-menu-link">
+            <li className="header__sm-menu-link">
               <a href="./#contact"> Contact </a>
             </li>
           </ul>

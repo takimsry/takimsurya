@@ -12,37 +12,37 @@ const NavbarProjects = () => {
   };
   
   return (
-    <header class="header">
-      <div class="header__content">
-        <Link to="/" class="header__logo-container">
-          <div class="header__logo-img-cont">
+    <header className="header">
+      <div className="header__content">
+        <Link to="/" className="header__logo-container">
+          <div className="header__logo-img-cont">
             <img
               src={heroImage}
               alt="M. Mustakim Surya Logo"
-              class="header__logo-img"
+              className="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">M. Mustakim Surya</span>
+          <span className="header__logo-sub">M. Mustakim Surya</span>
         </Link>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <Link to="/"  class="header__link"> Home </Link>
+        <div className="header__main">
+          <ul className="header__links">
+            <li className="header__link-wrapper">
+              <Link to="/"  className="header__link"> Home </Link>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont" onClick={toggleSmallMenu}>
+          <div className="header__main-ham-menu-cont" onClick={toggleSmallMenu}>
             <img
               src={isSmallMenuOpen ? hamMenuClose : hamMenu}
               alt="hamburger menu"
-              class="header__main-ham-menu"
+              className="header__main-ham-menu"
             />
           </div>
         </div>
       </div>
-      <div class={`header__sm-menu ${isSmallMenuOpen ? 'header__sm-menu--active' : ''}`}>
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
+      <div className={`header__sm-menu ${isSmallMenuOpen ? 'header__sm-menu--active' : ''}`}>
+        <div className="header__sm-menu-content">
+          <ul className="header__sm-menu-links">
+            <li className="header__sm-menu-link">
               <Link to="/" > Home </Link>
             </li>
           </ul>
