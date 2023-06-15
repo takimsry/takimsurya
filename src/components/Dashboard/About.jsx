@@ -15,7 +15,7 @@ const About = () => {
             <h3 className="about__content-title">Get to know me!</h3>
             <div className="about__content-details">
               <p className="about__content-details-para">
-                Welcome! I'm a passionate <strong>Full Stack Developer</strong> specializing in Web Development using <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>CodeIgniter PHP</strong>. With a strong background and ongoing studies in Computer Science, I constantly push the boundaries of what's possible.
+                Welcome! I'm a passionate <strong>Full Stack Developer</strong> specializing in Front-End Development using <strong>React.js</strong> and Back-End Development using <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Hapi.js</strong>, and <strong>CodeIgniter PHP</strong>. With a strong background and ongoing studies in Computer Science, I constantly push the boundaries of what's possible.
               </p>
               <p className="about__content-details-para">
                 I excel in <strong>Project Management</strong> and <strong>UI/UX Design</strong>. Open to job opportunities, I'm eager to contribute, learn, and grow. Don't hesitate to <strong>contact</strong> me if you have a matching opportunity.
