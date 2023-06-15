@@ -11,7 +11,7 @@ const Hero = () => {
         <h2 className="heading-secondary">Full Stack Developer</h2>
         <div className="home-hero__info">
           <p className="text-primary">
-            Experienced full stack developer skilled in UI/UX design, database design, and web development with React.js, Node.js, and CodeIgniter PHP.
+            Experienced full stack developer skilled in front-end development, back-end development, UI/UX design, and project management.
           </p>
         </div>
         <div className="home-hero__cta">

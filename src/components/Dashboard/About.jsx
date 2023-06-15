@@ -39,11 +39,13 @@ const About = () => {
               <div className="skills__skill">JavaScript</div>
               <div className="skills__skill">React.js</div>
               <div className="skills__skill">Node.js</div>
+              <div className="skills__skill">Express.js</div>
+              <div className="skills__skill">Hapi.js</div>
               <div className="skills__skill">PHP</div>
               <div className="skills__skill">CodeIgniter</div>
               <div className="skills__skill">MySQL</div>
-              <div className="skills__skill">Apollo GraphQL</div>
-              <div className="skills__skill">Axios</div>
+              <div className="skills__skill">MongoDB</div>
+              <div className="skills__skill">GraphQL</div>
               <div className="skills__skill">UI/UX Design</div>
               <div className="skills__skill">Tailwind CSS</div>
               <div className="skills__skill">Bootstrap</div>
