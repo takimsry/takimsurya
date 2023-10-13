@@ -4,7 +4,7 @@ import hamMenu from '../../assets/img/ham-menu.svg'
 import hamMenuClose from '../../assets/img/ham-menu-close.svg'
 import { Link } from 'react-router-dom';
 
-const NavbarProjects = () => {
+const NavbarProject = () => {
   const [isSmallMenuOpen, setIsSmallMenuOpen] = useState(false);
 
   const toggleSmallMenu = () => {
@@ -52,4 +52,4 @@ const NavbarProjects = () => {
   )
 }
 
-export default NavbarProjects
+export default NavbarProject
