@@ -11,7 +11,7 @@ const About = () => {
           </span>
         </h2>
         <div className="about__content">
-          <div className="about__content-main" data-aos="fade-up" data-aos-delay="150">
+          <div className="about__content-main" data-aos="fade-up" data-aos-delay="200">
             <h3 className="about__content-title">Get to know me!</h3>
             <div className="about__content-details">
               <p className="about__content-details-para">
@@ -31,7 +31,7 @@ const About = () => {
               >My CV</a
             >
           </div>
-          <div className="about__content-skills" data-aos="fade-up" data-aos-delay="150">
+          <div className="about__content-skills" data-aos="fade-up" data-aos-delay="400">
             <h3 className="about__content-title">My Skills</h3>
             <div className="skills">
               <div className="skills__skill">HTML</div>
