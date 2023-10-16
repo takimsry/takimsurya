@@ -1,11 +1,35 @@
 let portfolioData = [
   {
+    "id": "6",
+    "title": "Estimator.id",
+    "detail": "Estimator.id is a groundbreaking web application focused on revolutionizing construction cost estimation. Estimator.id facilitates real-time access to updated pricing data, enabling efficient and accurate cost estimation for construction projects.",
+    "overview": "Estimator.id is a groundbreaking web application that I had the privilege to work on during my internship with PT Baracipta Esa Engineering. As a member of the Full Stack Developer team, I played a key role in its development, leveraging my skills in MySQL for database design and CodeIgniter PHP for web development. The application is designed to transform construction cost estimation by providing real-time access to continually updated pricing data. It offers an efficient and accurate solution for estimating construction project costs. One of the notable features of Estimator.id is the implementation of REST API, which allows seamless data exchange. Using Ajax and jQuery, I integrated the API into the application, enabling quick and reliable communication between the front-end and the back-end. This project stands as a testament to my commitment to innovation and my ability to deliver effective solutions in the realm of construction cost estimation. Estimator.id sets a new standard for efficiency and precision in the industry, ensuring that cost estimates remain up-to-date and reliable.",
+    "tools": [
+      "HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "CodeIgniter", "SQL", "MySQL", "Postman", "jQuery", "Ajax", "Git", "GitHub", "Jira"
+    ],
+    "liveLink": "https://estimator.id/",
+    "codeLink": "",
+    "image":  require('../assets/portfolio/project6.png')
+  },
+  {
+    "id": "5",
+    "title": "Kowkee",
+    "detail": "UI/UX project designed for an intuitive restaurant order management solution. It streamlines processes, enhances efficiency, and delivers a seamless experience for both restaurant staff and customers, ensuring a hassle-free dining experience.",
+    "overview": "Kowkee is an innovative UI/UX project that's reshaping restaurant order management. This solution is designed to streamline operations and provide an intuitive experience for both restaurant staff and customers, ultimately delivering a hassle-free dining experience.For restaurant staff, Kowkee simplifies the order management process, enhancing efficiency and accuracy. It empowers employees to efficiently handle orders, manage inventory, and coordinate with the kitchen team, resulting in faster service and reduced errors. Customers, on the other hand, benefit from Kowkee's user-friendly interface, allowing easy menu browsing, order placement, and special requests. With features like order tracking and timely notifications, Kowkee ensures a smooth and enjoyable dining experience. This project showcases my commitment to creating user-centered solutions that improve operational efficiency and customer satisfaction in the restaurant industry.",
+    "tools": [
+      "Figma", "Trello"
+    ],
+    "liveLink": "https://www.figma.com/proto/Hk2BJE3eQpCO69XKxg85Q6/Kowkee?type=design&node-id=12-2&t=VgiQUCjTVN5mSOs0-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A2",
+    "codeLink": "",
+    "image":  require('../assets/portfolio/project5.png')
+  },
+  {
     "id": "4",
     "title": "E-HAS",
     "detail": "E-HAS (Electronic Halal Assurance System) is a system that aimed to provide small and medium enterprises with a streamlined process to obtain halal certification for their products from MUI (Majelis Ulama Indonesia, the Indonesian Council of Ulama).",
     "overview": "E-HAS (Electronic Halal Assurance System) is a significant project that I contributed to during my internship at PT Semesta Mahakarya Teknologi. As part of the Full Stack Developer team, our objective was to design and develop a streamlined system that facilitates the halal certification process for small and medium enterprises (SMEs) through the Indonesian Council of Ulama (MUI). Utilizing MySQL for efficient database design, Figma for UI/UX design, and CodeIgniter PHP for web development, we successfully created a user-friendly platform. E-HAS simplifies the complex certification procedures, enabling SMEs to accurately submit product information and efficiently manage their certification requests. Through this project, I was able to showcase my proficiency in database design, UI/UX design, and web development, demonstrating my capability to deliver impactful solutions that cater to the needs of businesses and promote halal compliance.",
     "tools": [
-      "HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL", "CPanel", "Figma", "Git", "GitHub", "Trello"
+      "HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "CodeIgniter", "SQL", "MySQL", "cPanel", "Figma", "Git", "GitHub", "Trello"
     ],
     "liveLink": "https://e-has.id/",
     "codeLink": "",
