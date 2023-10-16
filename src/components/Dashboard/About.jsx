@@ -31,7 +31,7 @@ const About = () => {
               >My CV</a
             >
           </div>
-          <div className="about__content-skills" data-aos="fade-up" data-aos-delay="400">
+          <div className="about__content-skills" data-aos="fade-up" data-aos-delay="200">
             <h3 className="about__content-title">My Skills</h3>
             <div className="skills">
               <div className="skills__skill">HTML</div>
