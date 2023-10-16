@@ -40,9 +40,7 @@ const ProjectDetail = () => {
             <div className="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
               <div className="project-details__desc">
                 <h3 className="project-details__content-title">Project Overview</h3>
-                <p className="project-details__desc-para">
-                  {selectedProject.overview}
-                </p>
+                <p className="project-details__desc-para" dangerouslySetInnerHTML={{ __html: selectedProject.overview }}></p>
               </div>
               <div className="project-details__tools-used" data-aos="fade-up">
                 <h3 className="project-details__content-title">Tools Used</h3>

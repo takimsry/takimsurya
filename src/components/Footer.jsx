@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div className="main-footer__lower">
-          &copy; Copyright {crYear}.
+          &copy; {crYear} M. Mustakim Surya
         </div>
       </div>
     </footer>
