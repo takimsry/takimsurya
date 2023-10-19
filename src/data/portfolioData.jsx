@@ -50,7 +50,7 @@ let portfolioData = [
   {
     "id": "2",
     "title": "OurGym",
-    "detail": "OurGym is a Gym Membership system which of course is engaged in sports. This app provide gym className, mentoring, booking system, and payment gateway via third party.",
+    "detail": "OurGym is a Gym Membership system which of course is engaged in sports. This app provide gym class, mentoring, booking system, and payment gateway via third party.",
     "overview": "As a Front-End Developer, I collaborated with UI/UX Designers, Back-End Developers, and Quality Assurance experts to develop OurGym App. This comprehensive gym membership application was developed as a proof of competency test during my time at the Alterra Academy Independent Study Batch 3. It fulfilled the Team Capstone Project assignment, providing fitness enthusiasts with a seamless user experience and efficient management system. <br><br>Our collaborative efforts resulted in a user-friendly application that simplifies gym membership management. The OurGym App showcases my expertise in Front-End Development and highlights my ability to work effectively within a multidisciplinary team to deliver a high-quality product.",
     "tools": [
       "HTML", "Tailwind CSS", "JavaScript", "React.js", "Axios", "Netlify", "Git", "GitHub", "Trello"
