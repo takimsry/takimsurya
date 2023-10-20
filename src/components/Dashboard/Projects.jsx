@@ -1,6 +1,5 @@
 import React from 'react';
 import portfolioData from '../../data/portfolioData';
-import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -31,10 +30,10 @@ const Projects = () => {
                     <p className="projects__row-content-desc">
                       {portfolio.detail}
                     </p>
-                    <Link
-                      to={`/projects/${portfolio.id}`}
+                    <a
+                      href={`https://takimsurya.vercel.app/projects/${portfolio.id}`}
                       className="btn btn--med btn--theme dynamicBgClr"
-                      >Case Study</Link
+                      >Case Study</a
                     >
                   </div>
                 </div>
