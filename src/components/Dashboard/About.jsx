@@ -46,6 +46,7 @@ const About = () => {
               <div className="skills__skill">Ajax</div>
               <div className="skills__skill">SQL</div>
               <div className="skills__skill">MySQL</div>
+              <div className="skills__skill">PostgreSQL</div>
               <div className="skills__skill">MongoDB</div>
               <div className="skills__skill">GraphQL</div>
               <div className="skills__skill">UI/UX Design</div>
@@ -53,6 +54,7 @@ const About = () => {
               <div className="skills__skill">Bootstrap</div>
               <div className="skills__skill">Git</div>
               <div className="skills__skill">GitHub</div>
+              <div className="skills__skill">Problem Solving</div>
               <div className="skills__skill">Project Management</div>
             </div>
           </div>
