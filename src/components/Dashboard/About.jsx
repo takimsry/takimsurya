@@ -27,7 +27,7 @@ const About = () => {
                 Let's collaborate and bring your <strong>ideas</strong> to life!
               </p>
             </div>
-            <a href="https://drive.google.com/file/d/1oMJMff1A8hdr1qee6A1aMKl3i-P0TDiU/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer"
+            <a href="https://drive.google.com/file/d/1jnACtT4DInI2uHoKuRRI_B2R1RlH5L_U/view?usp=drive_link" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer"
               >My CV</a
             >
           </div>
