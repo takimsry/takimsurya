@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
       <div className="home-hero__socials">
         <div className="home-hero__social">
-          <a href="mailto:muhammadmustakimsurya@gmail.com" className="home-hero__social-icon-link"
+          <a href="mailto:takimsry@gmail.com" className="home-hero__social-icon-link"
             target='_blank' rel="noreferrer">
             <img
               src={emailIcon}
@@ -30,7 +30,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="home-hero__social">
-          <a href="https://www.linkedin.com/in/m-mustakim-surya/" className="home-hero__social-icon-link"
+          <a href="https://www.linkedin.com/in/takimsry/" className="home-hero__social-icon-link"
             target='_blank' rel="noreferrer"
           >
             <img
@@ -41,7 +41,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="home-hero__social">
-          <a href="https://github.com/m-mustakim-surya" className="home-hero__social-icon-link"
+          <a href="https://github.com/takimsry" className="home-hero__social-icon-link"
             target='_blank' rel="noreferrer"
           >
             <img

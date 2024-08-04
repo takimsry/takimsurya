@@ -9,7 +9,7 @@ let portfolioData = [
     ],
     "liveLink": "https://estimator.id/",
     "codeLink": "",
-    "image":  require('../assets/portfolio/project6.png')
+    "image": require('../assets/portfolio/project6.png')
   },
   {
     "id": "5",
@@ -21,7 +21,7 @@ let portfolioData = [
     ],
     "liveLink": "https://www.figma.com/proto/Hk2BJE3eQpCO69XKxg85Q6/Kowkee?type=design&node-id=12-2&t=VgiQUCjTVN5mSOs0-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A2",
     "codeLink": "",
-    "image":  require('../assets/portfolio/project5.png')
+    "image": require('../assets/portfolio/project5.png')
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@ let portfolioData = [
     ],
     "liveLink": "https://e-has.id/",
     "codeLink": "",
-    "image":  require('../assets/portfolio/project4.png')
+    "image": require('../assets/portfolio/project4.png')
   },
   {
     "id": "3",
@@ -45,7 +45,7 @@ let portfolioData = [
     ],
     "liveLink": "https://www.figma.com/proto/z4lF9g0a1JLNV63mrYWLRn/PERSANI?type=design&node-id=47-6&scaling=scale-down&page-id=47%3A5&starting-point-node-id=47%3A6",
     "codeLink": "",
-    "image":  require('../assets/portfolio/project3.png')
+    "image": require('../assets/portfolio/project3.png')
   },
   {
     "id": "2",
@@ -57,7 +57,7 @@ let portfolioData = [
     ],
     "liveLink": "https://ourgym-capstone.netlify.app/",
     "codeLink": "https://github.com/Capstone-Project-KelompokBesar-1/FRONTEND-REACT",
-    "image":  require('../assets/portfolio/project2.png')
+    "image": require('../assets/portfolio/project2.png')
   },
   {
     "id": "1",
@@ -68,8 +68,8 @@ let portfolioData = [
       "HTML", "CSS", "JavaScript", "React.js", "Hasura", "Apollo GraphQL", "Vercel", "Figma", "Git", "GitHub", "Trello"
     ],
     "liveLink": "https://angkutaja.vercel.app/",
-    "codeLink": "https://github.com/m-mustakim-surya/angkutaja",
-    "image":  require('../assets/portfolio/project1.png')
+    "codeLink": "https://github.com/takimsry/angkutaja",
+    "image": require('../assets/portfolio/project1.png')
   },
 ]
 

@@ -11,7 +11,7 @@ const Contacts = () => {
           </span>
         </h2>
         <div className="contact__form-container" data-aos="fade-up" data-aos-delay="200">
-          <form action="mailto:muhammadmustakimsurya@gmail.com" className="contact__form" method="POST" enctype="multipart/form-data" name="EmailForm">
+          <form action="mailto:takimsry@gmail.com" className="contact__form" method="POST" enctype="multipart/form-data" name="EmailForm">
             <div className="contact__form-field">
               <label className="contact__form-label" for="name">Name</label>
               <input

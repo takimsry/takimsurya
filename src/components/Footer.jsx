@@ -14,21 +14,21 @@ const Footer = () => {
               <span>Social</span>
             </h2>
             <div className="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="mailto:muhammadmustakimsurya@gmail.com">
+              <a target="_blank" rel="noreferrer" href="mailto:takimsry@gmail.com">
                 <img
                   className="main-footer__icon"
                   src={emailIcon}
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/m-mustakim-surya/">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/takimsry/">
                 <img
                   className="main-footer__icon"
                   src={linkedinIcon}
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/m-mustakim-surya">
+              <a target="_blank" rel="noreferrer" href="https://github.com/takimsry">
                 <img
                   className="main-footer__icon"
                   src={githubIcon}
