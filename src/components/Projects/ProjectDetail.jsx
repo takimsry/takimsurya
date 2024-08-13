@@ -23,7 +23,17 @@ const ProjectDetail = () => {
             </p>
           </div>
           <div className="project-cs-hero__cta">
-            <a href={selectedProject.liveLink} className="btn btn--bg" target="_blank" rel="noreferrer">Live Link</a>
+            {
+              selectedProject.liveLink !== "" ?
+                <a
+                  href={selectedProject.liveLink}
+                  className="btn btn--bg"
+                  target="_blank" rel="noreferrer"
+                  >Live Link</a
+                >
+              : null
+            }
+            <a href={selectedProject.liveLink}  target="_blank" rel="noreferrer">Live Link</a>
           </div>
         </div>
       </section>
@@ -54,25 +64,33 @@ const ProjectDetail = () => {
                   }
                 </div>
               </div>
-              <div className="project-details__links" data-aos="fade-up">
-                <h3 className="project-details__content-title">See Live</h3>
-                <a
-                  href={selectedProject.liveLink}
-                  className="btn btn--med btn--theme project-details__links-btn"
-                  target="_blank" rel="noreferrer"
-                  >Live Link</a
-                >
-                {
-                  selectedProject.codeLink !== "" ?
-                    <a
-                      href={selectedProject.codeLink}
-                      className="btn btn--med btn--theme project-details__links-btn"
-                      target="_blank" rel="noreferrer"
-                      >Code Link</a
-                    >
-                  : null
-                }
-              </div>
+              {
+                selectedProject.liveLink !== "" || selectedProject.codeLink !== "" ?
+                  <div className="project-details__links" data-aos="fade-up">
+                    <h3 className="project-details__content-title">See Live</h3>
+                    {
+                      selectedProject.liveLink !== "" ?
+                        <a
+                          href={selectedProject.liveLink}
+                          className="btn btn--med btn--theme project-details__links-btn"
+                          target="_blank" rel="noreferrer"
+                          >Live Link</a
+                        >
+                      : null
+                    }
+                    {
+                      selectedProject.codeLink !== "" ?
+                        <a
+                          href={selectedProject.codeLink}
+                          className="btn btn--med btn--theme project-details__links-btn"
+                          target="_blank" rel="noreferrer"
+                          >Code Link</a
+                        >
+                      : null
+                    }
+                  </div>
+                : null
+              }
             </div>
           </div>
         </div>

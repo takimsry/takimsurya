@@ -31,7 +31,7 @@ let portfolioData = [
     "tools": [
       "HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "CodeIgniter", "SQL", "MySQL", "cPanel", "Figma", "Git", "GitHub", "Trello"
     ],
-    "liveLink": "https://e-has.id/",
+    "liveLink": "",
     "codeLink": "",
     "image": require('../assets/portfolio/project4.png')
   },
