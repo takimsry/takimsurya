@@ -1,6 +1,6 @@
 let portfolioData = [
   {
-    "id": "7",
+    "id": "8",
     "title": "Twitter Clone",
     "detail": "Twitter Clone is a social media web application designed to replicate the core functionalities of Twitter/X. With a familiar interface and essential features like tweet posting, liking, commenting, and following, it offers users an interactive experience similar to the original platform.",
     "overview": "Twitter Clone is a Full-Stack web application built to mimic Twitter/X's popular social media interface and functionalities. Developed with React.js and React Query for an interactive Front-End, the Back-End was initially implemented with Express.js, MongoDB, and Mongoose, later transitioning to Express.js, PostgreSQL, and Sequelize to optimize data management and relational functionality. <br><br>The project features tweet posting, user profiles, and the ability to follow other users, bringing a complete social media experience. This project showcases my skills in both Front-End and Back-End development, API integration, and database management.",
@@ -9,6 +9,18 @@ let portfolioData = [
     ],
     "liveLink": "",
     "codeLink": "https://github.com/takimsry/twitter-clone",
+    "image": require('../assets/portfolio/project8.png')
+  },
+  {
+    "id": "7",
+    "title": "StaffX",
+    "detail": "StaffX is an innovative web application designed to optimize employee turnover prediction through machine learning techniques. The system features a user-friendly interface, allowing HR professionals to easily access and interpret turnover insights.",
+    "overview": "StaffX is a significant project I undertook for my Bachelor Thesis, focusing on the optimization of the Random Forest Classifier algorithm to predict employee turnover. This project utilized Python to implement machine learning techniques, including Synthetic Minority Oversampling Technique (SMOTE) for oversampling imbalanced datasets, Principal Component Analysis (PCA) for reducing dimensionality while preserving essential features, and RandomSearchCV for hyperparameter tuning. <br><br>The resulting model significantly enhances the accuracy of employee turnover predictions, providing valuable insights for organizations aiming to improve retention strategies. To facilitate user interaction, I developed a web application using React.js and Axios for the Front-End, paired with Flask for the Back-End. StaffX showcases my ability to merge data science with web development, offering a comprehensive solution for employee turnover analysis.",
+    "tools": [
+      "HTML", "SASS", "JavaScript", "React.js", "Axios", "Python", "Flask", "Google Colab","Postman", "Git", "GitHub"
+    ],
+    "liveLink": "",
+    "codeLink": "",
     "image": require('../assets/portfolio/project7.png')
   },
   {
