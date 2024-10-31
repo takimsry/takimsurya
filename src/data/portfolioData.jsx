@@ -7,7 +7,6 @@ let portfolioData = [
     "tools": [
       "HTML", "Tailwind CSS", "DaisyUI", "JavaScript", "React.js", "React Query", "Express.js", "MongoDB", "Mongoose", "PostgreSQL", "Sequelize", "Postman", "Git", "GitHub"
     ],
-    "liveLink": "",
     "codeLink": "https://github.com/takimsry/twitter-clone",
     "image": require('../assets/portfolio/project8.png')
   },
@@ -19,8 +18,7 @@ let portfolioData = [
     "tools": [
       "HTML", "SASS", "JavaScript", "React.js", "Axios", "Python", "Flask", "Google Colab","Postman", "Git", "GitHub"
     ],
-    "liveLink": "",
-    "codeLink": "",
+    "journalLink": "https://drive.google.com/file/d/1EPPA8Y6QE3qholij4ZvkPgew6-HzzJ6V/view?usp=sharing",
     "image": require('../assets/portfolio/project7.png')
   },
   {
@@ -32,7 +30,6 @@ let portfolioData = [
       "HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "CodeIgniter", "SQL", "MySQL", "Postman", "jQuery", "Ajax", "Git", "GitHub", "Jira"
     ],
     "liveLink": "https://estimator.id/",
-    "codeLink": "",
     "image": require('../assets/portfolio/project6.png')
   },
   {
@@ -44,7 +41,6 @@ let portfolioData = [
       "Figma", "Trello"
     ],
     "liveLink": "https://www.figma.com/proto/Hk2BJE3eQpCO69XKxg85Q6/Kowkee?type=design&node-id=12-2&t=VgiQUCjTVN5mSOs0-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A2",
-    "codeLink": "",
     "image": require('../assets/portfolio/project5.png')
   },
   {
@@ -55,8 +51,6 @@ let portfolioData = [
     "tools": [
       "HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "CodeIgniter", "SQL", "MySQL", "cPanel", "Figma", "Git", "GitHub", "Trello"
     ],
-    "liveLink": "",
-    "codeLink": "",
     "image": require('../assets/portfolio/project4.png')
   },
   {
@@ -68,7 +62,6 @@ let portfolioData = [
       "Figma", "Trello"
     ],
     "liveLink": "https://www.figma.com/proto/z4lF9g0a1JLNV63mrYWLRn/PERSANI?type=design&node-id=47-6&scaling=scale-down&page-id=47%3A5&starting-point-node-id=47%3A6",
-    "codeLink": "",
     "image": require('../assets/portfolio/project3.png')
   },
   {

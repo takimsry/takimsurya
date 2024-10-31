@@ -23,17 +23,15 @@ const ProjectDetail = () => {
             </p>
           </div>
           <div className="project-cs-hero__cta">
-            {
-              selectedProject.liveLink !== "" ?
-                <a
-                  href={selectedProject.liveLink}
-                  className="btn btn--bg"
-                  target="_blank" rel="noreferrer"
-                  >Live Link</a
-                >
-              : null
-            }
-            <a href={selectedProject.liveLink}  target="_blank" rel="noreferrer">Live Link</a>
+            {selectedProject.liveLink && (
+              <a
+                href={selectedProject.liveLink}
+                className="btn btn--bg"
+                target="_blank" rel="noreferrer"
+              >
+                Live Link
+              </a>
+            )}
           </div>
         </div>
       </section>
@@ -64,33 +62,38 @@ const ProjectDetail = () => {
                   }
                 </div>
               </div>
-              {
-                selectedProject.liveLink !== "" || selectedProject.codeLink !== "" ?
-                  <div className="project-details__links" data-aos="fade-up">
-                    <h3 className="project-details__content-title">See Live</h3>
-                    {
-                      selectedProject.liveLink !== "" ?
-                        <a
-                          href={selectedProject.liveLink}
-                          className="btn btn--med btn--theme project-details__links-btn"
-                          target="_blank" rel="noreferrer"
-                          >Live Link</a
-                        >
-                      : null
-                    }
-                    {
-                      selectedProject.codeLink !== "" ?
-                        <a
-                          href={selectedProject.codeLink}
-                          className="btn btn--med btn--theme project-details__links-btn"
-                          target="_blank" rel="noreferrer"
-                          >Code Link</a
-                        >
-                      : null
-                    }
-                  </div>
-                : null
-              }
+              {(selectedProject.liveLink || selectedProject.codeLink || selectedProject.journalLink) && (
+                <div className="project-details__links" data-aos="fade-up">
+                  <h3 className="project-details__content-title">See Live</h3>
+                  {selectedProject.liveLink && (
+                    <a
+                      href={selectedProject.liveLink}
+                      className="btn btn--med btn--theme project-details__links-btn"
+                      target="_blank" rel="noreferrer"
+                    >
+                      Live Link
+                    </a>
+                  )}
+                  {selectedProject.codeLink && (
+                    <a
+                      href={selectedProject.codeLink}
+                      className="btn btn--med btn--theme project-details__links-btn"
+                      target="_blank" rel="noreferrer"
+                    >
+                      Code Link
+                    </a>
+                  )}
+                  {selectedProject.journalLink && (
+                    <a
+                      href={selectedProject.journalLink}
+                      className="btn btn--med btn--theme project-details__links-btn"
+                      target="_blank" rel="noreferrer"
+                    >
+                      Journal Link
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>
