@@ -1,5 +1,17 @@
 let portfolioData = [
   {
+    "id": "7",
+    "title": "Twitter Clone",
+    "detail": "Twitter Clone is a social media web application designed to replicate the core functionalities of Twitter/X. With a familiar interface and essential features like tweet posting, liking, commenting, and following, it offers users an interactive experience similar to the original platform.",
+    "overview": "Twitter Clone is a Full-Stack web application built to mimic Twitter/X's popular social media interface and functionalities. Developed with React.js and React Query for an interactive Front-End, the Back-End was initially implemented with Express.js, MongoDB, and Mongoose, later transitioning to Express.js, PostgreSQL, and Sequelize to optimize data management and relational functionality. <br><br>The project features tweet posting, user profiles, and the ability to follow other users, bringing a complete social media experience. This project showcases my skills in both Front-End and Back-End development, API integration, and database management.",
+    "tools": [
+      "HTML", "Tailwind CSS", "DaisyUI", "JavaScript", "React.js", "React Query", "Express.js", "MongoDB", "Mongoose", "PostgreSQL", "Sequelize", "Postman", "Git", "GitHub"
+    ],
+    "liveLink": "",
+    "codeLink": "https://github.com/takimsry/twitter-clone",
+    "image": require('../assets/portfolio/project7.png')
+  },
+  {
     "id": "6",
     "title": "Estimator.id",
     "detail": "Estimator.id is a groundbreaking web application focused on revolutionizing construction cost estimation. Estimator.id facilitates real-time access to updated pricing data, enabling efficient and accurate cost estimation for construction projects.",
