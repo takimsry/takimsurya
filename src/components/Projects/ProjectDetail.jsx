@@ -62,7 +62,7 @@ const ProjectDetail = () => {
                   }
                 </div>
               </div>
-              {(selectedProject.liveLink || selectedProject.codeLink || selectedProject.journalLink) && (
+              {(selectedProject.liveLink || selectedProject.codeLink || selectedProject.articleLink) && (
                 <div className="project-details__links" data-aos="fade-up">
                   <h3 className="project-details__content-title">See Live</h3>
                   {selectedProject.liveLink && (
@@ -83,13 +83,13 @@ const ProjectDetail = () => {
                       Code Link
                     </a>
                   )}
-                  {selectedProject.journalLink && (
+                  {selectedProject.articleLink && (
                     <a
-                      href={selectedProject.journalLink}
+                      href={selectedProject.articleLink}
                       className="btn btn--med btn--theme project-details__links-btn"
                       target="_blank" rel="noreferrer"
                     >
-                      Journal Link
+                      Article Link
                     </a>
                   )}
                 </div>

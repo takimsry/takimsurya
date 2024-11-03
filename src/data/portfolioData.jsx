@@ -18,7 +18,7 @@ let portfolioData = [
     "tools": [
       "HTML", "SASS", "JavaScript", "React.js", "Axios", "Python", "Flask", "Google Colab","Postman", "Git", "GitHub"
     ],
-    "journalLink": "https://drive.google.com/file/d/1EPPA8Y6QE3qholij4ZvkPgew6-HzzJ6V/view?usp=sharing",
+    "articleLink": "https://drive.google.com/file/d/1EPPA8Y6QE3qholij4ZvkPgew6-HzzJ6V/view?usp=sharing",
     "image": require('../assets/portfolio/project7.png')
   },
   {
