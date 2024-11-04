@@ -107,6 +107,7 @@ const Contacts = () => {
               ></textarea>
             </div>
             <ReCAPTCHA
+              ref={recaptchaRef}
               sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
               onChange={onCaptchaChange}
             />
