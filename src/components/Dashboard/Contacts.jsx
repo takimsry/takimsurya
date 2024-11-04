@@ -1,6 +1,46 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const Contacts = () => {
+  const form = useRef();
+  const [formEmail, setFormEmail] = useState({
+    user_name: "",
+    user_email: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    setFormEmail({ ...formEmail, [e.target.name]: e.target.value });
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+        form.current, {
+          publicKey: process.env.REACT_APP_EMAIL_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          setFormEmail({
+            user_name: "",
+            user_email: "",
+            message: ""
+          });
+          toast.success("Email sent successfully!", { style: { fontSize: '16px' } });
+        },
+        (error) => {
+          toast.error("Failed to send the email", { style: { fontSize: '16px' } });
+          throw new Error(error);
+        }
+      );
+  }
+
   return (
     <section id="contact" className="contact sec-pad dynamicBg">
       <div className="main-container">
@@ -11,7 +51,7 @@ const Contacts = () => {
           </span>
         </h2>
         <div className="contact__form-container" data-aos="fade-up" data-aos-delay="200">
-          <form action="mailto:takimsry@gmail.com" className="contact__form" method="POST" enctype="multipart/form-data" name="EmailForm">
+          <form ref={form} onSubmit={handleSubmit} className="contact__form" name="EmailForm">
             <div className="contact__form-field">
               <label className="contact__form-label" for="name">Name</label>
               <input
@@ -19,8 +59,10 @@ const Contacts = () => {
                 placeholder="Enter Your Name"
                 type="text"
                 className="contact__form-input"
-                name="name"
-                id="name"
+                name="user_name"
+                id="user_name"
+                value={formEmail.user_name}
+                onChange={handleChange}
               />
             </div>
             <div className="contact__form-field">
@@ -30,8 +72,10 @@ const Contacts = () => {
                 placeholder="Enter Your Email"
                 type="email"
                 className="contact__form-input"
-                name="email"
-                id="email"
+                name="user_email"
+                id="user_email"
+                value={formEmail.user_email}
+                onChange={handleChange}
               />
             </div>
             <div className="contact__form-field">
@@ -44,6 +88,8 @@ const Contacts = () => {
                 placeholder="Enter Your Message"
                 name="message"
                 id="message"
+                value={formEmail.message}
+                onChange={handleChange}
               ></textarea>
             </div>
             <button type="submit" className="btn btn--theme contact__btn submit">
