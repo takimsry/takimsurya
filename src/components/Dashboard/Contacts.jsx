@@ -5,6 +5,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contacts = () => {
   const form = useRef();
+  const recaptchaRef = useRef();
   const [formEmail, setFormEmail] = useState({
     user_name: "",
     user_email: "",
@@ -39,6 +40,7 @@ const Contacts = () => {
             user_email: "",
             message: ""
           });
+          recaptchaRef.current.reset();
           setCaptchaValue(null);
           toast.success("Email sent successfully!", { style: { fontSize: '16px' } });
         },
