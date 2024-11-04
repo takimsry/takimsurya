@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contacts = () => {
   const form = useRef();
@@ -9,6 +10,7 @@ const Contacts = () => {
     user_email: "",
     message: ""
   });
+  const [captchaValue, setCaptchaValue] = useState(null);
 
   const handleChange = (e) => {
     setFormEmail({ ...formEmail, [e.target.name]: e.target.value });
@@ -16,6 +18,11 @@ const Contacts = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if(!captchaValue){
+      toast.error("Please complete the reCAPTCHA", { style: { fontSize: '16px' } });
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -32,6 +39,7 @@ const Contacts = () => {
             user_email: "",
             message: ""
           });
+          setCaptchaValue(null);
           toast.success("Email sent successfully!", { style: { fontSize: '16px' } });
         },
         (error) => {
@@ -39,6 +47,10 @@ const Contacts = () => {
           throw new Error(error);
         }
       );
+  }
+
+  const onCaptchaChange = (value) => {
+    setCaptchaValue(value);
   }
 
   return (
@@ -92,6 +104,10 @@ const Contacts = () => {
                 onChange={handleChange}
               ></textarea>
             </div>
+            <ReCAPTCHA
+              sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+              onChange={onCaptchaChange}
+            />
             <button type="submit" className="btn btn--theme contact__btn submit">
               Submit
             </button>
