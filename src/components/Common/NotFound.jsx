@@ -9,7 +9,6 @@ const NotFound = () => {
           <Link
             to={"/"}
             className="btn btn--bg"
-            target="_blank" rel="noreferrer"
           >
             Return to Home
           </Link>
