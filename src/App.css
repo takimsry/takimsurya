@@ -399,7 +399,7 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .contact__form-recaptcha {
         margin-bottom: 2rem;
-        transform:scale(0.95);
+        transform:scale(0.94);
         transform-origin:0 0; } }
   .contact__form-label {
     color: #666;
