@@ -15,10 +15,10 @@ const About = () => {
             <h3 className="about__content-title">Get to know me!</h3>
             <div className="about__content-details">
               <p className="about__content-details-para">
-                Welcome! I'm a passionate <strong>Software Developer</strong> specializing in Front-End Development using <strong>React.js</strong> and Back-End Development using <strong>Node.js</strong> & <strong>CodeIgniter PHP</strong>. With a strong background and ongoing studies in Computer Science, I constantly push the boundaries of what's possible.
+                Welcome! I'm a passionate <strong>Software Developer</strong> specializing in Front-End Development using <strong>React.js</strong> and Back-End Development using <strong>Node.js</strong>, <strong>Express.js</strong>, & <strong>CodeIgniter PHP</strong>. With a strong background and a Bachelor's degree in Computer Science, I constantly push the boundaries of what's possible.
               </p>
               <p className="about__content-details-para">
-                I excel in <strong>Project Management</strong> and <strong>UI/UX Design</strong>. Open to job opportunities, I'm eager to contribute, learn, and grow. Don't hesitate to <strong>contact</strong> me if you have a matching opportunity.
+                I also excel in <strong>Project Management</strong> and <strong>UI/UX Design</strong>. Open to job opportunities, I'm eager to contribute, learn, and grow. Don't hesitate to <strong>contact</strong> me if you have a matching opportunity.
               </p>
               <p className="about__content-details-para">
                 Connect with me on <a href="https://www.linkedin.com/in/takimsry/"><strong>LinkedIn</strong></a> for useful content on web development and programming.
@@ -27,9 +27,7 @@ const About = () => {
                 Let's collaborate and bring your <strong>ideas</strong> to life!
               </p>
             </div>
-            <a href="https://drive.google.com/file/d/1ypp_R-WQEmKdOShKjpIITLrgKCWUlAxw/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer"
-            >My CV</a
-            >
+            <a href="https://drive.google.com/file/d/1PqPY2mDFjwStT5jZsN3sig7_zP242g-f/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer">My CV</a>
           </div>
           <div className="about__content-skills" data-aos="fade-up" data-aos-delay="200">
             <h3 className="about__content-title">My Skills</h3>
@@ -42,6 +40,7 @@ const About = () => {
               <div className="skills__skill">Express.js</div>
               <div className="skills__skill">PHP</div>
               <div className="skills__skill">CodeIgniter</div>
+              <div className="skills__skill">Python</div>
               <div className="skills__skill">Axios</div>
               <div className="skills__skill">React Query</div>
               <div className="skills__skill">jQuery</div>

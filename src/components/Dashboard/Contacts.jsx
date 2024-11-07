@@ -110,6 +110,7 @@ const Contacts = () => {
               ref={recaptchaRef}
               sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
               onChange={onCaptchaChange}
+              className="contact__form-recaptcha"
             />
             <button type="submit" className="btn btn--theme contact__btn submit">
               Submit

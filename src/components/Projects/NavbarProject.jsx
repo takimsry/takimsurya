@@ -22,7 +22,7 @@ const NavbarProject = () => {
               className="header__logo-img"
             />
           </div>
-          <span className="header__logo-sub">M. Mustakim Surya</span>
+          <span className="header__logo-sub">Takim</span>
         </Link>
         <div className="header__main">
           <ul className="header__links">

@@ -34,8 +34,8 @@ const Projects = () => {
                     <Link
                       to={`/projects/${portfolio.id}`}
                       className="btn btn--med btn--theme dynamicBgClr"
-                      >Case Study</Link
-                    >
+                      >Case Study
+                    </Link>
                   </div>
                 </div>
               )
