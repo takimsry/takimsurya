@@ -43,9 +43,10 @@ const ProjectDetail = () => {
                 src={selectedProject.image}
                 alt="Project1"
                 className="project-details__showcase-img"
+                loading="lazy"
               />
             </div>
-            <div className="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
+            <div id="overview" className="project-details__content-main" data-aos="fade-up" data-aos-delay="150">
               <div className="project-details__desc">
                 <h3 className="project-details__content-title">Project Overview</h3>
                 <p className="project-details__desc-para" dangerouslySetInnerHTML={{ __html: selectedProject.overview }}></p>
@@ -54,11 +55,10 @@ const ProjectDetail = () => {
                 <h3 className="project-details__content-title">Tools Used</h3>
                 <div className="skills">
                   {
-                    selectedProject.tools.map(tool => {
-                      return(
+                    selectedProject.tools.map(tool => (
                         <div className="skills__skill">{tool}</div>
                       )
-                    })
+                    )
                   }
                 </div>
               </div>

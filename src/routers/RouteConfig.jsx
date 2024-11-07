@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DashboardPage from '../pages/DashboardPage/DashboardPage'
-import ProjectPage from '../pages/ProjectsPage/ProjectPage'
+import ProjectPage from '../pages/ProjectPage/ProjectPage'
 import ScrollToTop from '../hooks/scrollToTop';
 
 const RouteConfig = () => {

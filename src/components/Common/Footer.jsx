@@ -1,7 +1,7 @@
 import React from 'react';
-import emailIcon from '../assets/img/envelope-fill.svg';
-import linkedinIcon from '../assets/img/linkedin-ico.png';
-import githubIcon from '../assets/img/github-ico.png';
+import emailIcon from '../../assets/img/envelope-fill.svg';
+import linkedinIcon from '../../assets/img/linkedin-ico.png';
+import githubIcon from '../../assets/img/github-ico.png';
 
 const Footer = () => {
   const crYear = new Date().getFullYear();

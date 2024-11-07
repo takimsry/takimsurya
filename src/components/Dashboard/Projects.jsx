@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import portfolioData from '../../data/portfolioData';
-import { Link } from 'react-router-dom';
+import Project from '../Common/Project';
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const handleLoadMore = () => {
+    setShowAll(true);
+  }
+
   return (
     <section id="projects" className="projects sec-pad">
       <div className="main-container">
@@ -14,34 +20,18 @@ const Projects = () => {
         </h2>
 
         <div className="projects__content">
-          {
-            portfolioData.map(portfolio => {
-              return(
-                <div className="projects__row">
-                  <div className="projects__row-img-cont" data-aos="fade-right">
-                    <img
-                      src={portfolio.image}
-                      alt="Software Screenshot"
-                      className="projects__row-img"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="projects__row-content" data-aos="fade-right" data-aos-delay="200">
-                    <h3 className="projects__row-content-title">{portfolio.title}</h3>
-                    <p className="projects__row-content-desc">
-                      {portfolio.detail}
-                    </p>
-                    <Link
-                      to={`/projects/${portfolio.id}`}
-                      className="btn btn--med btn--theme dynamicBgClr"
-                      >Case Study
-                    </Link>
-                  </div>
-                </div>
-              )
-            })
+          {portfolioData.slice(0, 5).map(portfolio => (
+              <Project portfolio={portfolio} />
+            ))
           }
-          
+          {portfolioData.length > 5 && !showAll && (
+            <div className="home-hero__cta">
+              <button onClick={handleLoadMore} className="btn btn--bg">Load More</button>
+            </div>
+          )}
+          {showAll && portfolioData.slice(5).map(portfolio => (
+            <Project portfolio={portfolio} />
+          ))}
         </div>
       </div>
     </section>
