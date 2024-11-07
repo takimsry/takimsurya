@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import portfolioData from '../../data/portfolioData';
+import NotFound from '../Common/NotFound';
 
 const ProjectDetail = () => {
   const {projectId} = useParams();
@@ -8,7 +9,7 @@ const ProjectDetail = () => {
 
   if(!selectedProject){
     return(
-      <h1>Project Not Found</h1>
+      <NotFound />
     )
   }
 

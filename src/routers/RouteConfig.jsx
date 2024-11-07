@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DashboardPage from '../pages/DashboardPage/DashboardPage'
 import ProjectPage from '../pages/ProjectPage/ProjectPage'
 import ScrollToTop from '../hooks/scrollToTop';
+import NotFoundPage from '../pages/NotFoundPage/ProjectPage';
 
 const RouteConfig = () => {
   return (
@@ -11,6 +12,7 @@ const RouteConfig = () => {
       <Routes>
         <Route path='/' element={<DashboardPage />}/>
         <Route path='/projects/:projectId' element={<ProjectPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   )

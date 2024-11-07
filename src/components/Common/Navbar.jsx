@@ -61,9 +61,6 @@ const Navbar = () => {
               <li className="header__link-wrapper">
                 <Link to="/"  className="header__link"> Home </Link>
               </li>
-              <li className="header__sm-menu-link">
-                <a href="#overview" > Overview </a>
-              </li>
             </ul>
           )}
           <div className="header__main-ham-menu-cont" onClick={toggleSmallMenu}>
