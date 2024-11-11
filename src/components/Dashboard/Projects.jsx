@@ -25,8 +25,8 @@ const Projects = () => {
             ))
           }
           {portfolioData.length > 5 && !showAll && (
-            <div className="home-hero__cta">
-              <button onClick={handleLoadMore} className="btn btn--bg">Load More</button>
+            <div className="home-hero__cta" data-aos="fade-right">
+              <button onClick={handleLoadMore} className="btn btn--loadmore">Load More</button>
             </div>
           )}
           {showAll && portfolioData.slice(5).map(portfolio => (

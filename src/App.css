@@ -177,6 +177,12 @@ textarea {
     font-size: 2rem;
     background-color: #303841;
     border: 2px solid #00ADB5;}
+  .btn--loadmore {
+    padding: 1.5rem 8rem;
+    font-size: 2rem;
+    color: #303841;
+    background-color: #00ADB5;
+    border: 2px solid #00ADB5;}
   .btn--bg:hover {
     background-color: #00ADB5;
     border: 2px solid #00ADB5;
