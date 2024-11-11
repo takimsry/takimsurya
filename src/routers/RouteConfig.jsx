@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DashboardPage from '../pages/DashboardPage/DashboardPage'
 import ProjectPage from '../pages/ProjectPage/ProjectPage'
 import ScrollToTop from '../hooks/scrollToTop';
-import NotFoundPage from '../pages/NotFoundPage/ProjectPage';
+import NotFoundPage from '../pages/NotFoundPage/NotFoundPage';
 
 const RouteConfig = () => {
   return (
