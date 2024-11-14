@@ -27,7 +27,7 @@ const About = () => {
                 Let's collaborate and bring your <strong>ideas</strong> to life!
               </p>
             </div>
-            <a href="https://drive.google.com/file/d/1PqPY2mDFjwStT5jZsN3sig7_zP242g-f/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer">My CV</a>
+            <a href="https://drive.google.com/file/d/1Edtb18W-2tcqtybElCictOm7AGEEOPco/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer">My CV</a>
           </div>
           <div className="about__content-skills" data-aos="fade-up" data-aos-delay="200">
             <h3 className="about__content-title">My Skills</h3>
@@ -40,6 +40,7 @@ const About = () => {
               <div className="skills__skill">Express.js</div>
               <div className="skills__skill">PHP</div>
               <div className="skills__skill">CodeIgniter</div>
+              <div className="skills__skill">Laravel</div>
               <div className="skills__skill">Python</div>
               <div className="skills__skill">Axios</div>
               <div className="skills__skill">React Query</div>
@@ -49,6 +50,7 @@ const About = () => {
               <div className="skills__skill">MySQL</div>
               <div className="skills__skill">PostgreSQL</div>
               <div className="skills__skill">Sequelize</div>
+              <div className="skills__skill">Eloquent</div>
               <div className="skills__skill">MongoDB</div>
               <div className="skills__skill">Mongoose</div>
               <div className="skills__skill">GraphQL</div>
