@@ -558,8 +558,8 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #3A4750;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
+  background: rgba(48, 56, 65, 0.8);
+  backdrop-filter: saturate(180%) blur(5px);}
   .header__content {
     display: flex;
     align-items: center;
