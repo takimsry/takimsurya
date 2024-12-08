@@ -2,6 +2,7 @@ import React from 'react';
 import emailIcon from '../../assets/img/envelope-fill.svg';
 import linkedinIcon from '../../assets/img/linkedin-ico.png';
 import githubIcon from '../../assets/img/github-ico.png';
+import upworkIcon from '../../assets/img/upwork-ico.png';
 
 const Footer = () => {
   const crYear = new Date().getFullYear();
@@ -32,6 +33,13 @@ const Footer = () => {
                 <img
                   className="main-footer__icon"
                   src={githubIcon}
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.upwork.com/freelancers/~019336430785e79a23?mp_source=share">
+                <img
+                  className="main-footer__icon"
+                  src={upworkIcon}
                   alt="icon"
                 />
               </a>

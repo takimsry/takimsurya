@@ -2,6 +2,7 @@ import React from 'react';
 import emailIcon from '../../assets/img/envelope-fill.svg';
 import linkedinIcon from '../../assets/img/linkedin-ico.png';
 import githubIcon from '../../assets/img/github-ico.png';
+import upworkIcon from '../../assets/img/upwork-ico.png';
 
 const Hero = () => {
   return (
@@ -46,6 +47,17 @@ const Hero = () => {
           >
             <img
               src={githubIcon}
+              alt="icon"
+              className="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div className="home-hero__social">
+          <a href="https://www.upwork.com/freelancers/~019336430785e79a23?mp_source=share" className="home-hero__social-icon-link"
+            target='_blank' rel="noreferrer"
+          >
+            <img
+              src={upworkIcon}
               alt="icon"
               className="home-hero__social-icon"
             />
