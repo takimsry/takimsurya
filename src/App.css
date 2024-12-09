@@ -635,7 +635,8 @@ textarea {
   .header__main-ham-menu-close {
     width: 100%; }
   .header__sm-menu {
-    background: #3A4750;
+    background: rgba(48, 56, 65, 0.8);
+    backdrop-filter: saturate(180%) blur(5px);
     position: absolute;
     width: 100%;
     top: 100%;
