@@ -9,10 +9,10 @@ const Hero = () => {
     <section className="home-hero" id="hero">
       <div className="home-hero__content">
         <h1 className="heading-primary">I am <span>M. Mustakim Surya</span></h1>
-        <h2 className="heading-secondary">Software Developer</h2>
+        <h2 className="heading-secondary">Full Stack Engineer</h2>
         <div className="home-hero__info">
           <p className="text-primary">
-            Passionate Software Developer with a strong foundation in Front-End and Back-End Development, as well as a keen eye for UI/UX Design.
+            Passionate Full Stack Engineer with a strong foundation in Front-End and Back-End Development, as well as a keen eye for UI/UX Design.
           </p>
         </div>
         <div className="home-hero__cta">
