@@ -54,6 +54,7 @@ const About = () => {
               <div className="skills__skill">MongoDB</div>
               <div className="skills__skill">Mongoose</div>
               <div className="skills__skill">GraphQL</div>
+              <div className="skills__skill">Wordpress</div>
               <div className="skills__skill">Tailwind CSS</div>
               <div className="skills__skill">DaisyUI</div>
               <div className="skills__skill">Bootstrap</div>
