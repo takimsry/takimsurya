@@ -84,7 +84,7 @@ let portfolioData = [
     "detail": "The official organization website for INKINDO (Ikatan Nasional Konsultan Indonesia), an association of consulting companies in Indonesia, providing public access to their institutional information and services.",
     "overview": "INKINDO is a profile website built for a prominent national consulting association. While interning at PT Baracipta Esa Engineering, I contributed to Back-End development for the website using CodeIgniter and MySQL. <br><br>Although my involvement was limited to several features, this project still exemplifies my ability to contribute to professional-grade systems and collaborate in a team environment within a formal organizational setting.",
     "tools": ["PHP", "CodeIgniter", "MySQL", "SQL", "Git", "GitHub"],
-    "liveLink": "https://inkindo.or.id",
+    "liveLink": "https://www.inkindo.org",
     "image": require('../assets/portfolio/project13.png')
   },
   {
