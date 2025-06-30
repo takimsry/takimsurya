@@ -12,7 +12,7 @@ const Hero = () => {
         <h2 className="heading-secondary">Full Stack Engineer</h2>
         <div className="home-hero__info">
           <p className="text-primary">
-            Passionate Full Stack Engineer with a strong foundation in Front-End and Back-End Development, as well as a keen eye for UI/UX Design.
+            Passionate Full Stack Engineer with solid hands-on experience in both Front-End and Back-End development, as well as a keen eye for UI/UX Design.
           </p>
         </div>
         <div className="home-hero__cta">
