@@ -27,7 +27,7 @@ const About = () => {
                 Let's collaborate and bring your <strong>ideas</strong> to life!
               </p>
             </div>
-            <a href="https://drive.google.com/file/d/1UxiVVNCtkTBxRCZ2TOTUTXPOTbRluKxe/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer">My CV</a>
+            <a href="https://drive.google.com/file/d/1eyHHEZnF6FgIzkSVZPMUdshKPop8T3zt/view?usp=sharing" className="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer">My CV</a>
           </div>
           <div className="about__content-skills" data-aos="fade-up" data-aos-delay="200">
             <h3 className="about__content-title">My Skills</h3>
