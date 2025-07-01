@@ -48,7 +48,7 @@ const Footer = () => {
           <div className="main-footer__row main-footer__row-2">
             <h4 className="heading heading-sm text-lt">M. Mustakim Surya</h4>
             <p className="main-footer__short-desc">
-              Passionate Full Stack Engineer with a strong foundation in Front-End and Back-End Development, as well as a keen eye for UI/UX Design.
+              Passionate Full Stack Engineer with solid hands-on experience in both Front-End and Back-End development, as well as a keen eye for UI/UX Design.
             </p>
           </div>
         </div>
